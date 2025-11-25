@@ -1,0 +1,15 @@
+# Data Aggregations
+
+The cleaned data set was aggregated to produce the metrics required for the final visualizations:
+
+1.  **Aggregation for Dashboard (Average Critic Score):**
+    * **Goal:** Calculate the Mean Critic Score for each genre.
+    * **Method:** The cleaned data was grouped by the **Genre** column.
+    * **Calculation:** The mean of the **Critic_Score** column was calculated for the 'Sports' group and the 'Shooter' group.
+    * **Resulting Metrics:** Sports (71.9631), Shooter (70.1693).
+
+2.  **Aggregation for Histogram (Global Sales Distribution):**
+    * **Goal:** Determine the frequency count of games at various Global Sales levels.
+    * **Method:** The cleaned data was grouped by the **Genre** column and the **Global_Sales** column (implicitly binned by rounding/truncating to the nearest million unit).
+    * **Calculation:** A count of games was performed for each unique combination of Genre and Global Sales level.
+    * **Resulting Table:** A pivot table structure showing Global Sales level and the count of games for Sports and Shooter at that level.
