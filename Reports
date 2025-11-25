@@ -1,0 +1,33 @@
+Histogram 
+Global Sales (Millions of Units),Sports Games (Count),Shooter Games (Count)
+0,757,584
+1,306,221
+2,69,56
+3,30,30
+4,16,16
+5,6,5
+6,3,5
+7,0,6
+8,1,2
+9,1,2
+10,0,3
+11,0,1
+12,0,1
+13,0,3
+14,0,2
+15,0,2
+Outliers,,
+22,1,0
+23,1,0
+33,1,0
+83,1,0
+Dashboard 
+Key Metric Table,Average Critic Score
+Sports Games,71.96
+Shooter Games,70.17
+The table contains accurate labels.,
+Pie Chart 
+Pie Chart Label,Percentage
+Sports Games,50.63%
+Shooter Games,49.37%
+The pie chart contains accurate labels (Categories & Percentages).,
