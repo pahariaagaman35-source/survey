@@ -1,0 +1,13 @@
+Raw Data Source Documentation
+
+**Dataset Name:** Video Game Sales Data (Video_Games_Sales_as_at_22_Dec_2016.csv)
+
+**Source Description:** This file contains a comprehensive list of over 16,000 video games with global sales figures (in millions of units), critic scores, and user scores, tracking releases from 1985 through 2016.
+
+**Key Columns Used for Analysis:**
+- **Genre:** The game category (e.g., Sports, Shooter).
+- **Global_Sales:** Total worldwide sales (Float64).
+- **Critic_Score:** Professional aggregate score out of 100 (Float64).
+
+**Retrieval Method:**
+The raw data file used for this analysis was provided directly as 'Video_Games_Sales_as_at_22_Dec_2016.csv' within the course materials (LMS). It is a static CSV file and does not require a dynamic API or external link for retrieval.
