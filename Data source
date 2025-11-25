@@ -7,9 +7,3 @@ This project was conducted to analyze the Video Game Sales dataset to provide bu
 1.  **Sales Distribution Skew:** Both the Sports and Shooter genres exhibit a highly skewed sales distribution, with the vast majority of games selling less than 1 million units.
 2.  **Volume vs. Outliers:** The Sports genre has a higher volume of low-selling titles (757 games selling <1 million units) compared to the Shooter genre (584 games selling <1 million units). However, the Sports genre also contains the highest-grossing outlier title in the entire dataset (83 million units).
 3.  **Critical Reception:** Critics rate the Sports genre marginally higher on average (71.96) than the Shooter genre (70.17).
-
-## Directory Structure
-- **data/:** Contains documentation on the raw data source.
-- **munge/:** Contains documentation on the data cleaning and transformation steps (Module 4).
-- **src/:** Contains documentation on the data aggregation steps (Module 5).
-- **reports/:** Contains the final report, including the visualization file (Module 6).
